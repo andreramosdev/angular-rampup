@@ -6,6 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./directives.component.css']
 })
 export class DirectivesComponent {
+  isVisible = true;
   textColor = 'green';
   cssClasses = ['red-title', 'big-title'];
+
+  togleTextVisibility() {
+    this.isVisible = !this.isVisible;
+  }
 }

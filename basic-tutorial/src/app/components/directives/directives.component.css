@@ -5,3 +5,8 @@
 .red-title {
     color: red;
 }
+
+.condition-rendering-example {
+    margin: 30px auto;
+    border-style: dashed;
+}
