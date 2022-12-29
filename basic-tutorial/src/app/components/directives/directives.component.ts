@@ -10,7 +10,7 @@ export class DirectivesComponent {
   textColor = 'green';
   cssClasses = ['red-title', 'big-title'];
 
-  togleTextVisibility() {
+  togleTextVisibility(): void {
     this.isVisible = !this.isVisible;
   }
 }
