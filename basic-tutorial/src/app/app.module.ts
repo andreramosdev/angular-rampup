@@ -6,6 +6,7 @@ import { ParentDataComponent } from './components/parent-data/parent-data.compon
 import { DirectivesComponent } from './components/directives/directives.component';
 import { EmitterComponent } from './components/emitter/emitter.component';
 import { ChangeNumberComponent } from './components/change-number/change-number.component';
+import { ListsComponent } from './lists/lists.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { ChangeNumberComponent } from './components/change-number/change-number.
     ParentDataComponent,
     DirectivesComponent,
     EmitterComponent,
-    ChangeNumberComponent
+    ChangeNumberComponent,
+    ListsComponent
   ],
   imports: [
     BrowserModule
